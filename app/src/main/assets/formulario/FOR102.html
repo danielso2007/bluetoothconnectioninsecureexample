@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html class="no-js lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+<!--[if IE 7]>         
+   <html class="no-js lt-ie9 lt-ie8">
+      <![endif]-->
+<!--[if IE 8]>         
+      <html class="no-js lt-ie9">
+         <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge" />
+    <title>Certificado de Inspeção/Autovistoria de Rede de Distribuição Interna Residencial Individual</title>
+    <meta name="description"
+          content="" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet"
+          href="" />
+    <style>
+        body {
+            font-size: .6rem
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse
+        }
+
+        td {
+            border-collapse: collapse;
+            vertical-align: top
+        }
+
+        table#tb02 td {
+            border: 1px solid #000;
+            border-collapse: collapse
+        }
+
+        table#tb02 td {
+            padding: 2px 5px 5px 5px
+        }
+
+        .width_10 {
+            width: 10%
+        }
+
+        .width_20 {
+            width: 20%
+        }
+
+        .width_30 {
+            width: 30%
+        }
+
+        .width_33 {
+            width: 33%
+        }
+
+        .width_40 {
+            width: 40%
+        }
+
+        .width_50 {
+            width: 50%
+        }
+
+        .width_60 {
+            width: 60%
+        }
+
+        .width_70 {
+            width: 70%
+        }
+
+        .width_80 {
+            width: 80%
+        }
+
+        .text_left {
+            text-align: left
+        }
+
+        .text_right {
+            text-align: right
+        }
+
+        .text_center {
+            text-align: center
+        }
+
+        .label {
+            font-size: .5rem;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        .cls_004 {
+            font-family: Arial, serif;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        .cls_002 {
+            font-family: Arial, serif;
+            font-weight: 700;
+            font-style: normal;
+            text-decoration: none
+        }
+
+        .label_divisao {
+            font-size: .7rem;
+            font-weight: 700
+        }
+
+        .cor_fundo_padrao {
+            background-color: #b3b3b3;
+            font-weight: 700;
+        }
+
+        .disabled_back {
+            background-color: #d9d9d9;
+            font-weight: 700;
+        }
+
+        .cell_back {
+            background-color: #000000;
+            font-weight: 700;
+            color: white;
+            font-size: .8rem;
+        }
+
+        .logo {
+            width: 80%
+        }
+
+        .logo_ig007 {
+            width: 30%
+        }
+
+        .aparelho_check {
+            font-weight: 700;
+            font-size: .8rem
+        }
+
+        .text_col {
+            font-size: .7rem
+        }
+
+        .text_bold {
+            font-weight: 700
+        }
+
+        input[type=checkbox],
+        input[type=radio] {
+            vertical-align: middle;
+            position: relative;
+            bottom: 1px
+        }
+
+        input[type=radio] {
+            bottom: 2px
+        }
+
+        .informacoes {
+            padding: 4px
+        }
+
+        .informacoes_linha {
+            border-bottom: 1px solid #000;
+            background-color: #fff
+        }
+
+        .va_middle {
+            vertical-align: middle
+        }
+
+        .vertical-text {
+            transform: rotate(270deg);
+            white-space: nowrap
+        }
+
+        td.rotate {
+            height: 140px;
+            white-space: nowrap
+        }
+
+        td.rotate>div {
+            transform: translate(25px, 100%) rotate(270deg);
+            width: 60px;
+            margin-left: -50px
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td class="width_20 text_left" style="vertical-align: middle;">
+                <img class="logo"
+                     src="logo.jpg" />
+            </td>
+            <td class="width_60 text_center" style="vertical-align: middle;">
+                <span class="cls_002">Certificado de Inspe&ccedil;&atilde;o/Autovistoria de Rede de Distribui&ccedil;&atilde;o Interna </span>
+                <br/>
+                <span class="cls_002">Residencial Individual</span>
+            </td>
+            <td class="width_20 text_right" style="vertical-align: middle;">
+                <img class="logo_ig007"
+                     src="ig007.png" />
+            </td>
+        </tr>
+    </table>
+
+    <table id="tb02">
+        <tbody>
+            <tr>
+                <td>
+                    <span class="label">N&deg; da Ordem de Servi&ccedil;o:</span>
+                    <br/>
+                    <span>${numero_os}</span>
+                </td>
+                <td colspan="3">
+                    <span class="label">Nome do Cliente / Condom&iacute;nio:</span>
+                    <br/>
+                    <span>${nome_cliente}</span>
+                </td>
+                <td>
+                    <span class="label">Telefone:</span>
+                    <br/>
+                        <span>${telefone_cliente}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="label">N&ordm; do cliente CEG:</span>
+                    <br/>
+                    <span>${nuemro_ceg}</span>
+                </td>
+                <td colspan="3">
+                    <span class="label">Endere&ccedil;o - rua / n&ordm; / complemento</span>
+                    <br/>
+                    <span>${enredeco_cliente}</span>
+                </td>
+                <td>
+                    <span class="label">Bairro:</span>
+                    <br/>
+                    <span>${bairro}</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span class="label">Data:</span>
+                    <br/>
+                    <span>${data}</span>
+                </td>
+                <td>
+                    <span class="label">Hora de chegada:</span>
+                    <br/>
+                    <span>${hora_chegada}</span>
+                </td>
+                <td>
+                    <span class="label">Hora de sa&iacute;da:</span>
+                    <br/>
+                    <span>${hora_saida}</span>
+                </td>
+                <td>
+                    <span class="label">Lote / subzona:</span>
+                    <br/>
+                    <span>${lote}</span>
+                </td>
+                <td style="vertical-align: bottom;">
+                        <input type="checkbox" name="qualificacao" ${qualificacao} /> Qualificação
+                        <input type="checkbox" name="requalificacao" ${requalificacao} /> Requalificação
+                </td>
+            </tr>
+        </tbody>
+        <table id="tb02" style="margin-top: 10px">
+            <tr>
+                <td colspan="10" class="width_30"
+                    rowspan="6">
+                    <span class="label">S&iacute;ndico: ${sindico}</span>
+                    <br/>
+                    <span class="label">Telefone: #{telefone_sindico}</span>
+                    <br/>
+                    <p><span>Sr. S&iacute;ndico ou Administrador</span></p>
+                    <p><span>Informamos que na presente data realizamos a <input type="checkbox" name="inspecao" ${inspecao} /> Inspe&ccedil;&atilde;o / <input type="checkbox" name="revisao" ${revisao} /> Revis&atilde;o Peri&oacute;dica por solicita&ccedil;&atilde;o
+                            da unidade habitacional acima e &nbsp;<input type="checkbox" name="constatamos" ${constatamos} /> constatamos / <input type="checkbox" name="nao_constatamos" ${nao_constatamos} /> Não constatamos algumas irregularidades cujos reparos s&atilde;o responsabilidade do morador e/ou
+                            condom&iacute;nio. As adequa&ccedil;&otilde;es dos itens assinalados devem ser realizadas conforme os prazos estabelecidos.</span></p>
+                </td>
+                <td colspan="4" class="width_20">
+                    <span class="label">Tipo de abastecimento:</span>
+                    <br/>
+                    <input type="checkbox" name="gas_natural" ${gas_natural} /> G&aacute;s Natural &nbsp;<input type="checkbox" name="glp" ${glp} />GLP
+                    <br/>
+                    <input type="checkbox" name="bp" ${bp} /> BP &nbsp;<input type="checkbox" name="mpa" ${mpa} /> MPA &nbsp;<input type="checkbox" name="mpb" ${mpb} />MPB
+                </td>
+                <td colspan="5" class="width_20">
+                    <span class="label">Ramal interno: </span>
+                    <br/>
+                    <input type="checkbox" name="aparente" ${aparente} /> Aparente <input type="checkbox" name="embutido" ${embutido} /> Embutido <br/>
+                    <input type="checkbox" name="enterrado" ${enterrado} /> Enterrado <br/>
+                    <input type="checkbox" name="cobre" ${cobre} /> Cobre <input type="checkbox" name="aco" ${aco} /> A&ccedil;o <br/>
+                    <input type="checkbox" name="pe" ${pe} /> PE <br/>
+                    <input type="checkbox" name="outros" ${ramail_interno__check} /> Outros: ${ramail_interno_outros}
+                </td>
+                <td class="width_30">
+                    <span class="label">Substitui&ccedil;&atilde;o de certificado</span><br/>
+                    <input type="checkbox" name="certificado_inspecao" ${certificado_inspecao_check} /> Este certificado de inspe&ccedil;&atilde;o substitui e anula o certificado anterior de n&deg; de OS (Ordem de Servi&ccedil;o): ${numero_os}
+                    <br/>
+                    <br/>
+                    <p><span><input type="checkbox" name="nao_se_aplica" ${nao_se_aplica_check} /> Não se aplica</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9" class="width_50 text_center label_divisao cor_fundo_padrao">
+                    <span>Informa&ccedil;&otilde;es do teste pelo m&eacute;todo do &nbsp;&aacute;baco</span>
+                </td>
+                <td class="width_50 text_center label_divisao cor_fundo_padrao">
+                    <span>TAG dos Instrumentos de Inspe&ccedil;&atilde;o</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="9"
+                    rowspan="6">
+                    <p><span>Press&atilde;o final:__________________ mm ca</span></p>
+                    <p><span>Press&atilde;o inicial: _________________ mm ca</span></p>
+                    <p><span>Comprimento da tubula&ccedil;&atilde;o:_______________</span></p>
+                    <p><span>Di&acirc;metro da Tubula&ccedil;&atilde;o:________________</span></p>
+                    <p><span>Resultado (l//h):___________________</span></p>
+                    <p><span>OBS.:</span><span>&nbsp;</span><span>A avalia&ccedil;&atilde;o da quantidade de fuga em instala&ccedil;&otilde;es deve ser
+                            realizada, conforme</span></p>
+                    <p><span>&nbsp;ITEC &ndash; 29 (&uacute;ltima revis&atilde;o).</span></p>
+                </td>
+                <td>
+                    <p><span>Analisador de Gases: </span><span>BA </span><span>&nbsp;&#822; </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>Trena: </span><span>ZIt</span><span>&nbsp;&ndash; </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>Man&ocirc;metro: </span><span>PI </span><span>&nbsp;&#822;</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>Paqu&iacute;metro:</span><span>&nbsp;</span><span>ZIp</span><span>&nbsp;-</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="10"
+                    rowspan="2">
+                    <p><span
+                              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 38.93px; height: 11.73px;"><img
+                                 alt=""
+                                 src="images/image1.png"
+                                 style="width: 38.93px; height: 11.73px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                 title=""></span><span
+                              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 38.93px; height: 11.73px;"><img
+                                 alt=""
+                                 src="images/image1.png"
+                                 style="width: 38.93px; height: 11.73px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                 title=""></span><span
+                              style="overflow: hidden; display: inline-block; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 38.93px; height: 11.73px;"><img
+                                 alt=""
+                                 src="images/image1.png"
+                                 style="width: 38.93px; height: 11.73px; margin-left: 0.00px; margin-top: 0.00px; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px);"
+                                 title=""></span></p>
+                    <p><span>Corre&ccedil;&otilde;es:</span><span>&nbsp;Desconsiderar itens &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; , &nbsp;
+                            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; e &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;.</span></p>
+                    <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Os itens acima foram retificados e est&atilde;o conformes.</span></p>
+                    <p><span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> Não se aplica</span></p>
+                </td>
+                <td class="width_50 text_center label_divisao cor_fundo_padrao">
+                    <span>Teste de estanqueidade</span><span>&nbsp;&#822; &nbsp;</span><span>ramal interno</span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>Press&atilde;o inicial: &nbsp;___________ &nbsp; mm ca &nbsp; &nbsp; &nbsp;</span></p>
+                    <p><span>Press&atilde;o final: _____________ &nbsp;mm ca</span></p>
+                    <p><span>Queda Manom&eacute;trica = PI - PF</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="20" class="width_50 text_left label_divisao cor_fundo_padrao">
+                    <span>Aparelhos de utiliza&ccedil;&atilde;o: &nbsp; &nbsp;</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>Fog&atilde;o </span><span><input type="checkbox" name="XXXX" ${XXXX} />Forno <input type="checkbox" name="XXXX" ${XXXX} />Cooktop</span><span>&nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} />Aquecedor <input type="checkbox" name="XXXX" ${XXXX} />outros:________</span></p>
+                    <p><span>Descri&ccedil;&atilde;o: _______________________________________</span></p>
+                    <p><span>Potencia: __________________ &nbsp; &nbsp;local: __________________</span></p>
+                    <p><span>Vol. Ambiente (m&sup3;): _____________ &nbsp;</span></p>
+                    <p><span>Vent. Sup. (cm&sup2;):____________ &nbsp;Vent. Inf. (cm&sup2;):____________</span></p>
+                    <p><span>Tiragem</span><span>: </span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Natural &nbsp; </span><span><input type="checkbox" name="XXXX" ${XXXX} />
+                        </span><span>For&ccedil;ada / </span><span>&nbsp;Combust&atilde;o</span><span>:</span><span><input type="checkbox" name="XXXX" ${XXXX} /> </span><span>Aberta &nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Fechada
+                            &nbsp;</span></p>
+                    <br/>
+                </td>
+                <td colspan="9">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>Fog&atilde;o </span><span><input type="checkbox" name="XXXX" ${XXXX} />Forno <input type="checkbox" name="XXXX" ${XXXX} />Cooktop</span><span>&nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} />Aquecedor <input type="checkbox" name="XXXX" ${XXXX} />outros:________</span></p>
+                    <p><span>Descri&ccedil;&atilde;o: _______________________________________</span></p>
+                    <p><span>Potencia: __________________ &nbsp; &nbsp;local: __________________</span></p>
+                    <p><span>Vol. Ambiente (m&sup3;): _____________ &nbsp;</span></p>
+                    <p><span>Vent. Sup. (cm&sup2;):____________ &nbsp;Vent. Inf. (cm&sup2;):____________</span></p>
+                    <p><span>Tiragem</span><span>: </span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Natural &nbsp; </span><span><input type="checkbox" name="XXXX" ${XXXX} />
+                        </span><span>For&ccedil;ada / </span><span>&nbsp;Combust&atilde;o</span><span>:</span><span><input type="checkbox" name="XXXX" ${XXXX} /> </span><span>Aberta &nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Fechada
+                            &nbsp;</span></p>
+                    <br/>
+                </td>
+                <td colspan="4">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>Fog&atilde;o </span><span><input type="checkbox" name="XXXX" ${XXXX} />Forno <input type="checkbox" name="XXXX" ${XXXX} />Cooktop</span><span>&nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} />Aquecedor <input type="checkbox" name="XXXX" ${XXXX} />outros:________</span></p>
+                    <p><span>Descri&ccedil;&atilde;o: _______________________________________</span></p>
+                    <p><span>Potencia: __________________ &nbsp; &nbsp;local: __________________</span></p>
+                    <p><span>Vol. Ambiente (m&sup3;): _____________ &nbsp;</span></p>
+                    <p><span>Vent. Sup. (cm&sup2;):____________ &nbsp;Vent. Inf. (cm&sup2;):____________</span></p>
+                    <p><span>Tiragem</span><span>: </span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Natural &nbsp; </span><span><input type="checkbox" name="XXXX" ${XXXX} />
+                        </span><span>For&ccedil;ada / </span><span>&nbsp;Combust&atilde;o</span><span>:</span><span><input type="checkbox" name="XXXX" ${XXXX} /> </span><span>Aberta &nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} /></span><span>&nbsp;Fechada
+                            &nbsp;</span></p>
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="disabled_back">
+                    <p><span>Tra&ccedil;ado</span></p>
+                </td>
+                <td colspan="5" class="disabled_back">
+                    <p><span>Materiais</span></p>
+                </td>
+                <td class="disabled_back">
+                    <p><span>Estanqueidade</span></p>
+                </td>
+                <td colspan="9" class="disabled_back">
+                    <p><span>Abrigos de reguladores e/ou medidores</span></p>
+                </td>
+                <td colspan="2" class="disabled_back">
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="5">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td>
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="9">
+                    <p><span>Condi&ccedil;&otilde;es Gerais &nbsp; &nbsp; </span></p>
+                </td>
+                <td colspan="2">
+                    <br/>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> Recomendamos o tamponamento do ponto de g&aacute;s com um buj&atilde;o e / ou tamp&atilde;o de Metal</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 1.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 2.1</span></p>
+                </td>
+                <td colspan="5">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 3.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 3.2 &nbsp; </span></p>
+                </td>
+                <td>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 4.1 &nbsp; &nbsp; &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 4.2</span></p>
+                </td>
+                <td colspan="9">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 5.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 6.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 6.2 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 6.3 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 7.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 8.1</span></p>
+                </td>
+                <td colspan="2">
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="disabled_back">
+                    <p><span>Locais de instala&ccedil;&atilde;o</span></p>
+                </td>
+                <td colspan="6" class="disabled_back">
+                    <p><span>Liga&ccedil;&atilde;o com rede de distribui&ccedil;&atilde;o interna</span></p>
+                </td>
+                <td colspan="8" class="disabled_back">
+                    <p><span>Liga&ccedil;&atilde;o com o sistema de exaust&atilde;o</span></p>
+                </td>
+                <td colspan="3" class="disabled_back">
+                    <p><span>Inspe&ccedil;&atilde;o Visual do Percurso do duto de exaust&atilde;o</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="6">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="8">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="3">
+                    <p><span>Condi&ccedil;&otilde;es Gerais </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 9.1 &nbsp; &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 9.2 &nbsp; &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 10.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 10.2 &nbsp; &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 10.3</span></p>
+                </td>
+                <td colspan="6">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 14.1 &nbsp; &nbsp;<input type="checkbox" name="XXXX" ${XXXX} />14.2 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 15.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 15.2</span></p>
+                </td>
+                <td colspan="8">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 16.1 &nbsp; &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 17.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 18.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 18.2</span></p>
+                </td>
+                <td colspan="3">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 19.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 19.2 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 19.3 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 20.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 20.2 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 21.1</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 11.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 11.2 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 12.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 13.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 13.2 &nbsp;</span></p>
+                </td>
+                <td colspan="6">
+                    <br/>
+                </td>
+                <td colspan="8">
+                    <br/>
+                </td>
+                <td colspan="3">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 22.1 &nbsp;<input type="checkbox" name="XXXX" ${XXXX} /> 22.2 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 22.3 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 23.1 &nbsp; <input type="checkbox" name="XXXX" ${XXXX} /> 24.1 &nbsp; </span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5" class="disabled_back">
+                    <p><span>N&iacute;vel de CO no local de instala&ccedil;&atilde;o e COn no aquecedor a g&aacute;s</span></p>
+                </td>
+                <td colspan="15">
+                    <p><span>Recomenda&ccedil;&otilde;es</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <p><span>Condi&ccedil;&otilde;es Gerais</span></p>
+                </td>
+                <td colspan="15"
+                    rowspan="2">
+                    <p><span>Recomendamos a manuten&ccedil;&atilde;o do(s) equipamento(s):_________________________________________________________</span></p>
+                    <p><span>____________________________________________________ pois o(s) mesmo(s) aparentou problemas de funcionamento.
+                            Ocorr&ecirc;ncia:___________________________________________________________________________________________</span><span>.</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> 25.1 <input type="checkbox" name="XXXX" ${XXXX} /> 26.1</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="20" class="cell_back">
+                    <span>Nota ao cliente: Os defeitos assinalados e as recomenda&ccedil;&otilde;es de manuten&ccedil;&atilde;o est&atilde;o identificados por
+                            c&oacute;digos e a descri&ccedil;&atilde;o encontra-se no verso deste documento</span>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    <p><span>LAUDO</span></p>
+                </td>
+                <td colspan="19">
+                    <p><span>Por meio deste documento certifica-se que, no dia de hoje, tenha sido comprovada em suas partes vis&iacute;veis e acess&iacute;veis a rede de
+                            distribui&ccedil;&atilde;o interna nas partes comuns obtendo-se o resultado abaixo assinalado:</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span></p>
+                    <br/>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /></span></p>
+                    <br/>
+                    <br/>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></p>
+                </td>
+                <td colspan="18">
+                    <p><span>Não FORAM DETECTADOS DEFEITOS PRINCIPAIS OU SECUND&Aacute;RIOS. </span></p>
+                    <p><span>EXISTEM DEFEITOS SECUND&Aacute;RIOS</span><span>, que devem ser reparados nos prazos indicados e comunicados &agrave;
+                            Concession&aacute;ria/ Distribuidora o mais breve poss&iacute;vel, constituindo este documento um informe dos defeitos identificados. </span><span>Prazo para
+                            adequa&ccedil;&atilde;o:</span><span>&nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} /> </span><span>P.60 &rarr; 60 dias</span><span>; &nbsp; &nbsp;
+                            &nbsp; &nbsp; &nbsp;</span><span><input type="checkbox" name="XXXX" ${XXXX} /> </span><span>P.90 &rarr; 90 dias</span><span>.</span></p>
+                    <p><span>EXISTEM DEFEITOS PRINCIPAIS</span><span>, motivo pelo qual a rede de distribui&ccedil;&atilde;o deve ficar lacrada e o abastecimento
+                            interrompido parcialmente ou totalmente. Constituindo este documento um INFORME DOS DEFEITOS IDENTIFICADOS &nbsp; &nbsp; &nbsp; &nbsp; </span><span><input type="checkbox" name="XXXX" ${XXXX} />
+                        </span><span>Lacre</span><span>&nbsp;</span><span>&rarr; A rede de distribui&ccedil;&atilde;o deve ficar lacrada e o abastecimento
+                            interrompida.</span></p>
+                    <br/>
+                    <p><span>Não FORAM CUMPRIDAS AS EXIG&Ecirc;NCIAS NO PRAZO DETERMINADO NA QUALIFICA&Ccedil;&Atilde;O.</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="15" class="disabled_back">
+                    <p><span>Resultado da inspe&ccedil;&atilde;o na rede de distribui&ccedil;&atilde;o interna nas partes comuns</span></p>
+                </td>
+                <td colspan="5" style="font-size: .8rem;"
+                    rowspan="4">
+                    Verifica&ccedil;&atilde;o de defeitos realizados de acordo com o procedimento de inspe&ccedil;&atilde;o Gasotec e IN 73/2018. Os defeitos principais
+                            e ou secund&aacute;rios devem ser corrigidos dentro do prazo notificado.<br/>
+                    Desta a&ccedil;&atilde;o depende a continuidade do fornecimento de g&aacute;s a esse cliente, estando as instala&ccedil;&otilde;es sujeitas &agrave;
+                            avalia&ccedil;&atilde;o da Concession&aacute;ria / Distribuidora.<br/>
+                    A corre&ccedil;&atilde;o dos defeitos deve ser notificada &agrave; empresa GASOTEC de forma oficial, para procedimentos de nova
+                            inspe&ccedil;&atilde;o.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4"
+                    rowspan="3">
+                    <p><span>Realizada a Inspe&ccedil;&atilde;o (situa&ccedil;&atilde;o do abastecimento): </span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> Sem defeitos</span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> Interrup&ccedil;&atilde;o do abastecimento</span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> Apto para uso provis&oacute;rio</span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} /> Não assina o certificado de inspe&ccedil;&atilde;o </span></p>
+                    <p><span><input type="checkbox" name="XXXX" ${XXXX} />Escapamento no ramal ou necessidade de substitui&ccedil;&atilde;o de v&aacute;lvula. Comunicar a concession&aacute;ria / </span></p>
+                    <p><span>Distribuidora.</span></p>
+                </td>
+                <td colspan="11" class="cell_back text_center" style="vertical-align: middle;">
+                    <span>Dados do Medidor Instalado:</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="7"
+                    rowspan="2">
+                    <p><span>N</span><span>&deg;___________________________________</span></p>
+                    <br/>
+                    <p><span>Tipo:_________________________________</span></p>
+                    <br/>
+                    <p><span>Marca:________________________________</span></p>
+                    <br/>
+                    <p><span>Leitura:_______________________________</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                        <span class="label" style="font-size: .8rem;">Possui Test Point.</span><br/>
+                    <span><input type="checkbox" name="XXXX" ${XXXX} /> Sim</span>
+                    <br/>
+                    <br/>
+                    <span><input type="checkbox" name="XXXX" ${XXXX} /> Não</span>
+                </td>
+                <td colspan="2">
+                        <span class="label" style="font-size: .8rem;">Possui Planta de G&aacute;s.</span><br/>
+                    <span><input type="checkbox" name="XXXX" ${XXXX} /> Sim</span>
+                    <br/>
+                    <br/>
+                    <span class="c243"><input type="checkbox" name="XXXX" ${XXXX} /> Não</span>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="20">
+                    <p><span>Observa&ccedil;&otilde;es: </span></p>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="12">
+                    <p><span>T&eacute;cnico de Inspe&ccedil;&atilde;o: </span></p>
+                </td>
+                <td colspan="8">
+                    <p><span>Ciente do resultado:</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6">
+                    <br/>
+                    <p><span>CPF:___________________________________</span></p>
+                    <br/>
+                    <p><span>Empresa: GASOTEC VISTORIAS E INSPE&Ccedil;&Otilde;ES</span></p>
+                    <br/>
+                    <p><span>Assinatura: _______________________________________.</span></p>
+                </td>
+                <td colspan="6">
+                    <p><span>Carimbo do Inspetor: </span></p>
+                    <br/>
+                    <br/>
+                    <br/>
+                </td>
+                <td colspan="8">
+                    <p><span>Nome: ___________________________________________________________________</span></p>
+                    <br/>
+                    <p><span>Identidade: _______________________________ &Oacute;rg&atilde;o:_________________ UF:______</span></p>
+                    <br/>
+                    <p><span>Assinatura:________________________________________________________________.</span></p>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+</body>
+
+</html>

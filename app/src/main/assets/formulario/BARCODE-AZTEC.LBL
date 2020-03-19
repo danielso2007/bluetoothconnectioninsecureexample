@@ -1,0 +1,171 @@
+! 0 200 200 900 1
+PW 831
+TONE 50
+SPEED 0
+ON-FEED IGNORE
+NO-PACE
+BAR-SENSE
+T ARIAL08.CPF 0 572 810 #{x}
+T ARIAL04.CPF 0 239 17 Certificado de Inspeção
+T ARIAL04.CPF 0 88 43 Autovistoria de Rede de Distribuição Interna
+T ARIAL04.CPF 0 296 87 Residencial Individual
+BOX 7 140 267 184 1
+T ARIAL08.CPF 0 10 144 N° da Ordem de Serviço:
+T ARIAL07.CPF 0 10 164 GST - 32112 / 2020
+BOX 266 140 822 184 1
+BOX 612 271 821 315 1
+T ARIAL07.CPF 0 646 287 Requalificação
+BOX 621 287 637 304 1
+T ARIAL08.CPF 0 621 283 #{x}
+BOX 7 184 189 228 1
+BOX 188 184 822 228 1
+T ARIAL08.CPF 0 10 185 Nº do cliente CEG:
+T ARIAL07.CPF 0 10 205 123546-23
+T ARIAL08.CPF 0 191 185 Endereço - rua / nº / complemento:
+T ARIAL07.CPF 0 191 204 Lorem ipsum dolor sit amet, conse asdkas hjdklj has k jhadjs kas
+BOX 347 227 822 271 1
+BOX 7 227 348 271 1
+T ARIAL08.CPF 0 10 229 Bairro:
+T ARIAL08.CPF 0 350 230 Lote / subzona:
+T ARIAL07.CPF 0 10 249 Donec faucibus nulla id elit
+T ARIAL07.CPF 0 350 249 Donec faucibus nulla id elit
+BOX 7 271 162 315 1
+BOX 161 271 401 315 1
+BOX 399 271 613 315 1
+T ARIAL08.CPF 0 165 274 Hora de chegada:
+T ARIAL08.CPF 0 404 274 Hora de saída:
+T ARIAL08.CPF 0 10 272 Data:
+T ARIAL07.CPF 0 11 292 99/99/9999
+T ARIAL07.CPF 0 165 294 12:00
+T ARIAL07.CPF 0 404 293 15:00
+BOX 7 321 548 541 1
+T ARIAL08.CPF 0 11 337 Síndico:
+T ARIAL08.CPF 0 13 373 Telefone:
+T ARIAL08.CPF 0 101 373  ( __ ) ___________ : _____________
+T ARIAL08.CPF 0 116 339 _________________________
+T ARIAL07.CPF 0 134 406 Sr. Síndico ou Administrador
+T ARIAL07.CPF 0 13 429 Informamos que na presente data realizamos a Inspeção Periódica por
+T ARIAL07.CPF 0 13 445 solicitação da unidade habitacional acima e não constatamos algumas
+T ARIAL07.CPF 0 13 461 irregularidades cujos reparos são responsabilidade do morador e/ou
+T ARIAL07.CPF 0 13 477 condomínio. As adequações dos itens assinalados devem ser realizadas
+T ARIAL07.CPF 0 13 493 conforme os prazos estabelecidos.
+BOX 547 321 822 366 1
+T ARIAL08.CPF 0 552 321 Tipo de abastecimento:
+T ARIAL07.CPF 0 571 346 Gás Natural
+BOX 552 344 568 361 1
+T ARIAL08.CPF 0 556 345 X
+T ARIAL08.CPF 0 551 367 Ramal interno:
+T ARIAL07.CPF 0 565 387  Enterrado
+BOX 552 385 568 402 1
+T ARIAL08.CPF 0 555 386 X
+BOX 547 364 822 407 1
+BOX 547 406 822 540 1
+T ARIAL08.CPF 0 551 406 Substituição de certificado:
+T ARIAL07.CPF 0 574 429 Este certificado de inspeção
+T ARIAL07.CPF 0 574 445 substitui e anula o certificado
+T ARIAL07.CPF 0 574 461 anterior de n° de OS
+T ARIAL07.CPF 0 574 477 (Ordem de Serviço):
+T ARIAL07.CPF 0 574 493 GST - 123123 /2020
+BOX 552 430 568 447 1
+T ARIAL08.CPF 0 555 431 X
+T ARIAL07.CPF 0 16 2268 * Para dúvidas, sugestões e/ou reclamações, favor enviar e-mail para atendimento@gasotec.com.br.
+T ARIAL07.CPF 0 16 2284 Para agendamentos, condições contratuais, favor enviar e-mail para comercial@gasotec.com.br.
+T ARIAL07.CPF 0 16 2300 Ou entre em contato através do telefone: (21) 3836-1905.
+BOX 7 539 439 765 1
+T ARIAL08.CPF 0 10 540 Informações do teste pelo método do  ábaco:
+T ARIAL07.CPF 0 13 562 Pressão final:
+T ARIAL07.CPF 0 258 562 mm ca
+T ARIAL07.CPF 0 112 562 _________________
+T ARIAL07.CPF 0 13 587 Pressão inicial:
+T ARIAL07.CPF 0 270 587 mm ca
+T ARIAL07.CPF 0 127 587 _________________
+T ARIAL07.CPF 0 13 612 Comprimento da tubulação:
+T ARIAL07.CPF 0 222 612 _________________
+T ARIAL07.CPF 0 13 639 Diâmetro da Tubulação:
+T ARIAL07.CPF 0 193 639 _________________
+T ARIAL07.CPF 0 13 665 Resultado (l//h):
+T ARIAL07.CPF 0 134 665 _________________
+T ARIAL08.CPF 0 13 699 OBS.: A avaliação da quantidade de fuga em
+T ARIAL08.CPF 0 13 715 instalações deve ser  realizada, conforme
+T ARIAL08.CPF 0 13 731 ITEC - 29 (última revisão).
+BOX 438 539 822 671 1
+BOX 438 670 822 765 1
+T ARIAL08.CPF 0 443 543 TAG dos Instrumentos de Inspeção:
+T ARIAL08.CPF 0 443 672 Teste de estanqueidade ?  ramal interno:
+T ARIAL07.CPF 0 444 688 Pressão inicial:
+T ARIAL07.CPF 0 676 688 mm ca
+T ARIAL07.CPF 0 553 688 _________________
+T ARIAL07.CPF 0 443 713 Pressão final:
+T ARIAL07.CPF 0 665 713 mm ca
+T ARIAL07.CPF 0 542 713 _________________
+T ARIAL07.CPF 0 443 737 Queda Manométrica = PI - PF
+T ARIAL07.CPF 0 446 562 Analisador de Gases:
+T ARIAL07.CPF 0 646 562 ______________________
+T ARIAL07.CPF 0 604 562 BA 
+T ARIAL07.CPF 0 446 584 Trena:
+T ARIAL07.CPF 0 538 585 ________________________
+T ARIAL07.CPF 0 494 585 ZIt 
+T ARIAL07.CPF 0 444 610 Manômetro:
+T ARIAL07.CPF 0 572 610 ________________________
+T ARIAL07.CPF 0 538 610 PI 
+T ARIAL07.CPF 0 443 637 Paquímetro:
+T ARIAL07.CPF 0 581 639 ________________________
+T ARIAL07.CPF 0 535 637 ZIp 
+BOX 7 764 124 835 1
+T ARIAL08.CPF 0 13 767 Traçado:
+BOX 13 810 29 827 1
+T ARIAL08.CPF 0 19 809 x
+BOX 123 764 236 835 1
+T ARIAL08.CPF 0 127 767 Materiais:
+T ARIAL08.CPF 0 237 767 Estanqueidade:
+T ARIAL07.CPF 0 32 807 1.1
+BOX 59 810 75 827 1
+T ARIAL08.CPF 0 63 810 x
+T ARIAL07.CPF 0 78 807 2.1
+BOX 130 809 146 826 1
+T ARIAL08.CPF 0 134 809 x
+T ARIAL07.CPF 0 150 806 3.1
+BOX 173 808 189 825 1
+T ARIAL08.CPF 0 177 809 x
+T ARIAL07.CPF 0 192 805 3.2
+T ARIAL07.CPF 0 13 782 Condições Gerais
+T ARIAL07.CPF 0 127 782 Condições Gerais
+BOX 235 764 348 835 1
+T ARIAL07.CPF 0 237 782 Condições Gerais
+BOX 242 810 258 827 1
+T ARIAL07.CPF 0 261 807 4.1
+BOX 285 810 301 827 1
+T ARIAL07.CPF 0 304 807 4.2
+T ARIAL08.CPF 0 245 810 x
+T ARIAL08.CPF 0 290 810 x
+BOX 347 764 622 835 1
+T ARIAL08.CPF 0 350 768 Abrigos de reguladores e/ou medidores:
+T ARIAL07.CPF 0 350 782 Condições Gerais
+BOX 353 810 369 827 1
+T ARIAL07.CPF 0 372 807 5.1
+T ARIAL08.CPF 0 356 811 x
+BOX 395 810 411 827 1
+T ARIAL07.CPF 0 414 807 6.1
+T ARIAL08.CPF 0 397 810 x
+BOX 438 811 454 828 1
+T ARIAL07.CPF 0 457 807 6.2
+T ARIAL08.CPF 0 442 810 x
+BOX 481 810 497 827 1
+T ARIAL07.CPF 0 500 807 6.3
+T ARIAL08.CPF 0 484 810 x
+BOX 525 811 541 828 1
+T ARIAL07.CPF 0 544 807 7.1
+T ARIAL08.CPF 0 527 811 x
+BOX 569 810 585 827 1
+T ARIAL07.CPF 0 588 807 8.1
+BOX 621 764 823 835 1
+T ARIAL07.CPF 0 646 764 Recomendamos o
+T ARIAL07.CPF 0 646 780 tamponamento do
+T ARIAL07.CPF 0 646 796 ponto de gás com
+T ARIAL07.CPF 0 646 812 um bujão e/ou tampão
+T ARIAL07.CPF 0 646 828 de Metal
+T ARIAL08.CPF 0 628 778 x
+BOX 624 778 640 795 1
+T ARIAL08.CPF 0 268 144 Nome do Cliente / Condomínio:
+T ARIAL07.CPF 0 269 164 Lorem ipsum dolor sit amet conse - 123213 asd asd kaçsdkçlas
+PRINT
