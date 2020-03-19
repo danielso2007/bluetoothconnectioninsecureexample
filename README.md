@@ -1,3 +1,5 @@
+![Android CI](https://github.com/danielso2007/bluetoothconnectioninsecureexample/workflows/Android%20CI/badge.svg?branch=master)
+
 # Bluetooth connection in secure example
 Usando uma impressora Zebra rw420.
 
