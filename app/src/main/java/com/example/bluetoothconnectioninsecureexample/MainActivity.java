@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
                     printerStatus(connection, view);
 
                     AssetManager am = view.getContext().getAssets();
-                    InputStream inputStream = am.open("formulario/teste.ZPL");
+                    InputStream inputStream = am.open("formulario/blank.prn");
 
                     //Read text from file
                     StringBuilder text = new StringBuilder();
